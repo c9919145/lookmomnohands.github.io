@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/lookmomnohands.github.io/',
+  base: process.env.VITE_BASE || '/',
   server: {
     port: 5173,
     open: true

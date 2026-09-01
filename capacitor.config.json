@@ -1,0 +1,8 @@
+{
+  "appId": "com.lookmomnohands.shop",
+  "appName": "AliExpress US",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
